@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body {
+    background-color: rgb(0, 0, 5);
+}
+#title {
+    margin-top: 20px;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#title b {
+    font-size: 20px;
+    font-weight: 100;
+}
+#errorMessageContainer {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 0, 5);
+}
+#errorMessage {
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#container {
+    width: 500px;
+    height: 300px;
+    margin-top: 160px;
+}
+#playerP {
+    font-size: 30px;
+    margin-top: 5px;
+}
+#playerInp1 {
+    width: 280px;
+    height: 45px;
+    color: black;
+    font-size: 25px;
+}
+#playerInp2 {
+    width: 280px;
+    height: 45px;
+    color: black;
+    font-size: 25px;
+}
+#startBtn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 28px;
+    color: black;
+    outline: none;
+}
+#startBtn:hover {
+    background-color: gray;
+}
+#startBtn:active {
+    color: red;
+}
+#box {
+    width: 500px;
+    height: 500px;
+    display: none;
+}
+#Table {
+    border-color: white;
+}
+#Table td {
+    width: 160px;
+    height: 160px;
+    border: 1px solid white;
+}
+#Table #td1 {
+    border-top: none;
+    border-left: none;
+}
+#Table #td2 {
+    border-top: none;
+}
+#Table #td3 {
+    border-top: none;
+    border-right: none;
+}
+#Table #td4 {
+    border-left: none;
+}
+#Table #td6 {
+    border-right: none;
+}
+#Table #td7 {
+    border-left: none;
+    border-bottom: none;
+}
+#Table #td8 {
+    border-bottom: none;
+}
+#Table #td9 {
+    border-right: none;
+    border-bottom: none;
+}
+#player1Txt {
+    width: 200px;
+    height: 40px;
+    background-color: darkgreen;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+#player2Txt {
+    width: 200px;
+    height: 40px;
+    background-color: darkred;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+#playersBox {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 100px;
+}
